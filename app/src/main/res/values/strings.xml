@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">FFmpegBugs</string>
+
+    <string name="explanation">layout orientation reverse from RightToLeft TO LeftToRight when ffmpeg is working\n
+                                1)your phone need to be configured to one of the rtl language (hebrew/arabic) \n
+                               2)take video (the uri should be display if the viseo taken successfully) \n
+                                3) press compress btn\n
+                                4) wait for finish status\n
+                                5) prss check rtl btn (the activity will be reload again and the layout will be reverse)</string>
+
+    <string name="secondExplanation">in certain phones (like samsung SM-J7000H) when opening camera during compress process the activity crash\n
+                                    1) do the steps under first explanation\n
+                                    2)press btn take video while video still compressing ,press back btn</string>
+    <string name="desroy">in order to reset layout it needed to destroy app</string>
 </resources>
